@@ -3,11 +3,11 @@
   <title>金锦鲤X&#39;blog</title>
   
   <subtitle>记录生活美好，记录笔记</subtitle>
-  <link href="http://chen09281.github.io/atom.xml" rel="self"/>
+  <link href="http://myfake.xyz/atom.xml" rel="self"/>
   
-  <link href="http://chen09281.github.io/"/>
-  <updated>2022-09-09T10:04:32.789Z</updated>
-  <id>http://chen09281.github.io/</id>
+  <link href="http://myfake.xyz/"/>
+  <updated>2022-09-09T16:16:58.438Z</updated>
+  <id>http://myfake.xyz/</id>
   
   <author>
     <name>金锦鲤</name>
@@ -17,11 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>javase复习</title>
+    <link href="http://myfake.xyz/posts/f2d38d13.html"/>
+    <id>http://myfake.xyz/posts/f2d38d13.html</id>
+    <published>2022-09-09T21:41:28.000Z</published>
+    <updated>2022-09-09T16:16:58.438Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="笔试题-50分"><a href="#笔试题-50分" class="headerlink" title="笔试题(50分)"></a>笔试题(50分)</h2><p>1.用一个生活案例，描述出面向对象这个概念！(理解)</p><psw>（比如设计一个角色）创建了一个角色名为教师，教师的性别，年龄，资历，他的技能是传授经验。后来我又创建了一个角色名为学生，学生的性别，年龄，资历。</psw><p>2.native,volatile关键字的作用！各举一个java中的例子!</p><psw>native指的是底层java不能读取的代码，里面大概率是c语言编写的。Volatile变量不会被缓存在寄存器或者对其他处理器不可见的地方，因此在读取volatile类型的变量时总会返回新写入的值，volatile有两个重要的作用，首先是保证变量的可见性，当一个线程修改了变量的值那么新的值对于其他线程是可以立即可见的，其次是禁止指令重排序，volatile是比Synchronized更轻量级的同步锁，在访问volatile变量时不会执行加锁操作，因此也就不会执行线程阻塞。volatile适合使用在一个变量被多个线程共享县城直接给这个变量赋值的场景。</psw><p>3.写出结果，分析原因，代码:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">SwitchTest</span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line"></span><br><span class="line">​    <span class="type">String</span> <span class="variable">param</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line"></span><br><span class="line">​    <span class="keyword">switch</span>(param)&#123;</span><br><span class="line"></span><br><span class="line">​      <span class="keyword">case</span> <span class="string">&quot;null&quot;</span>:</span><br><span class="line"></span><br><span class="line">​        System.out.println(<span class="string">&quot;null&quot;</span>);</span><br><span class="line"></span><br><span class="line">​        <span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">​      <span class="keyword">default</span>:</span><br><span class="line"></span><br><span class="line">​        System.out.println(<span class="string">&quot;default&quot;</span>);</span><br><span class="line"></span><br><span class="line">​    &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>程序运行的结果是什么？为什么会出现这种情况？</p><psw>会报空指针异常,报错的内容里面有hashCode字样，显然原因是需要比较hashCode是否相等，而一方为null;就产生了空指针异常，null是无法获取其hashCode的</psw><p>4.线程的五种状态，以及线程常用的方法</p><psw>1.新建状态 2.就绪状态 3.运行状态 4.阻塞状态 5.死亡状态 常用的方法有：sleep，join，yield，isLive,start,setPriority,interrupt(),stop(不建议使用)</psw><p>5.通过反射如何创建对象，执行对象的方法，修改对象的字段，如果是私有属性该怎么办？</p><psw>首先要获得class对象，可以使用Class.forName()来获取对象，然后通过获取到的对象使用newInstance()方法创建对象，或者使用构造器，方法可以使用getMethod来获取，若是属性为private可以使用setAccessible(true)来关闭安全检测。</psw><h2 id="代码题：多线程聊天室（50分）"><a href="#代码题：多线程聊天室（50分）" class="headerlink" title="代码题：多线程聊天室（50分）"></a>代码题：多线程聊天室（50分）</h2><p>1.GUI+10</p><p>2.多线程+20</p><p>3.集合+10</p><p>4.可阅读性+5</p><p>5.网络编程+5</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;笔试题-50分&quot;&gt;&lt;a href=&quot;#笔试题-50分&quot; class=&quot;headerlink&quot; title=&quot;笔试题(50分)&quot;&gt;&lt;/a&gt;笔试题(50分)&lt;/h2&gt;&lt;p&gt;1.用一个生活案例，描述出面向对象这个概念！(理解)&lt;/p&gt;
+&lt;psw&gt;（比如设计一个角色）创建</summary>
+      
+    
+    
+    
+    
+    <category term="JavaSE" scheme="http://myfake.xyz/tags/JavaSE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试博客</title>
+    <link href="http://myfake.xyz/posts/d9407122.html"/>
+    <id>http://myfake.xyz/posts/d9407122.html</id>
+    <published>2022-09-09T19:24:45.000Z</published>
+    <updated>2022-09-09T16:16:58.438Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是一个测试页面"><a href="#这是一个测试页面" class="headerlink" title="这是一个测试页面"></a>这是一个测试页面</h1><div class="tip home"><p>这是内容</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;这是一个测试页面&quot;&gt;&lt;a href=&quot;#这是一个测试页面&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试页面&quot;&gt;&lt;/a&gt;这是一个测试页面&lt;/h1&gt;&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;这是内容&lt;/p&gt;
+&lt;/div&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://chen09281.github.io/posts/4a17b156.html"/>
-    <id>http://chen09281.github.io/posts/4a17b156.html</id>
-    <published>2022-09-09T10:04:32.789Z</published>
-    <updated>2022-09-09T10:04:32.789Z</updated>
+    <link href="http://myfake.xyz/posts/4a17b156.html"/>
+    <id>http://myfake.xyz/posts/4a17b156.html</id>
+    <published>2022-09-09T16:16:58.438Z</published>
+    <updated>2022-09-09T16:16:58.438Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
