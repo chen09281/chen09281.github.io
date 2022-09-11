@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>http://myfake.xyz/posts/a9d62b65.html</loc>
+    
+    <lastmod>2022-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/d9407122.html</loc>
+    
+    <lastmod>2022-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://myfake.xyz/posts/4a17b156.html</loc>
     
     <lastmod>2022-09-11</lastmod>
@@ -29,25 +47,16 @@
   </url>
   
   <url>
+    <loc>http://myfake.xyz/posts/22044772.html</loc>
+    
+    <lastmod>2022-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://myfake.xyz/posts/68b78662.html</loc>
-    
-    <lastmod>2022-09-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/a9d62b65.html</loc>
-    
-    <lastmod>2022-09-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/d9407122.html</loc>
     
     <lastmod>2022-09-11</lastmod>
     
@@ -66,6 +75,13 @@
   
   <url>
     <loc>http://myfake.xyz/tags/JavaSE/</loc>
+    <lastmod>2022-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/tags/Java/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
