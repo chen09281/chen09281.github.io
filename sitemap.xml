@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>http://myfake.xyz/posts/68b78662.html</loc>
+    
+    <lastmod>2022-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://myfake.xyz/posts/a9d62b65.html</loc>
     
     <lastmod>2022-09-11</lastmod>
