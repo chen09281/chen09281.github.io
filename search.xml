@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>多环境配置以及配置文件位置</title>
+      <link href="/posts/f470d5d5.html"/>
+      <url>/posts/f470d5d5.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>application.yml可以存放的位置以及优先级(按照优先级排名)</p></blockquote><ol><li>file:.&#x2F;config&#x2F;</li><li>file:.&#x2F;</li><li>classpath:&#x2F;config&#x2F;</li><li>classpath:&#x2F;</li></ol><blockquote><p>多环境配置</p></blockquote><p>在实际的开发过程中肯定会有多种环境的测试，例如数据库的账号配置或者是端口配置可以使用spring.profiles.active&#x3D;xxx来配置所要激活的环境，例如有test和dev环境,首先创建</p><blockquote><p>使用properties的方法</p></blockquote><p><code>application.properties</code>和<code>application-test.properties</code>和</p><p><code>application-dev.properties</code>这两个环境不同之处在于端口:</p><p>application.properties</p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># SpringBoot的多环境配置： 可以选择激活哪一个配置文件</span></span><br><span class="line"><span class="attr">spring.profiles.active</span>=<span class="string">test</span></span><br></pre></td></tr></table></figure><p>application-test.properties</p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server.port</span>=<span class="string">8081</span></span><br></pre></td></tr></table></figure><p>application-dev.properties</p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server.port</span>=<span class="string">8082</span></span><br></pre></td></tr></table></figure><p>如果像我这样写启动项目的端口就会是8081如果是dev就是8082</p><blockquote><p>使用yml配置(推荐)</p></blockquote><p>如果使用yml配置就不用像properties创建多个文件就只需要一个文件即可</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8081</span></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">profiles:</span></span><br><span class="line">    <span class="attr">active:</span> <span class="string">test</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8082</span></span><br><span class="line"></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">config:</span></span><br><span class="line">    <span class="attr">activate:</span></span><br><span class="line">      <span class="attr">on-profile:</span> <span class="string">dev</span></span><br><span class="line"></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8083</span></span><br><span class="line"></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">config:</span></span><br><span class="line">    <span class="attr">activate:</span></span><br><span class="line">      <span class="attr">on-profile:</span> <span class="string">test</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JSR303校验</title>
       <link href="/posts/a5fe0d25.html"/>
       <url>/posts/a5fe0d25.html</url>
