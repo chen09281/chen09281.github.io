@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>员工管理系统：国际化</title>
+      <link href="/posts/269dc8c1.html"/>
+      <url>/posts/269dc8c1.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建配置文件"><a href="#创建配置文件" class="headerlink" title="创建配置文件"></a>创建配置文件</h2><p> 首先在resources目录下创建一个i18n文件夹这个i18n是什么意思呢？</p><blockquote><p>i18n的意思</p></blockquote><p>这就得看一下国际化的英语是什么了，internationalization</p><p>可以看到这个单词正好18个开头的字母为i，结束为n，所以i18n就是</p><p>internationalization的缩写。</p><blockquote><p>创建语言配置文件</p></blockquote><p>在i18n下创建<code>login.propperties</code>文件，再创建一个<code>login_zh_CN.properties</code>这时候我们会发现这两个文件自动合并J进了一个文件夹</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20220917231712.png" alt="合并后"></p><p>然后我们在合并的文件加点击新建</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20220917231800.png" alt="new"></p><p>点击+号输入en_US</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20220917231817.png" alt="add"></p><p>他会自动识别直接点击ok就可以了。</p><p>各个文件里面的配置分别是:</p><p>login:</p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">login.tip</span>=<span class="string">请登录</span></span><br><span class="line"><span class="attr">login.username</span>=<span class="string">用户名</span></span><br><span class="line"><span class="attr">login.password</span>=<span class="string">密码</span></span><br><span class="line"><span class="attr">login.remember</span>=<span class="string">记住我</span></span><br><span class="line"><span class="attr">login.btn</span>=<span class="string">登录</span></span><br></pre></td></tr></table></figure><p>login_en_US:</p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">login.tip</span>=<span class="string">Please sign in</span></span><br><span class="line"><span class="attr">login.username</span>=<span class="string">Username</span></span><br><span class="line"><span class="attr">login.password</span>=<span class="string">Password</span></span><br><span class="line"><span class="attr">login.remember</span>=<span class="string">Remember me</span></span><br><span class="line"><span class="attr">login.btn</span>=<span class="string">Sign in</span></span><br></pre></td></tr></table></figure><p>login_zh_CN:</p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">login.tip</span>=<span class="string">请登录</span></span><br><span class="line"><span class="attr">login.username</span>=<span class="string">用户名</span></span><br><span class="line"><span class="attr">login.password</span>=<span class="string">密码</span></span><br><span class="line"><span class="attr">login.remember</span>=<span class="string">记住我</span></span><br><span class="line"><span class="attr">login.btn</span>=<span class="string">登录</span></span><br></pre></td></tr></table></figure><p>这样我们关于语言的配置文件就创建完成了。</p><blockquote><p>修改html内容使用语言配置</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>员工管理系统：首页实现</title>
       <link href="/posts/f1ca5d3c.html"/>
       <url>/posts/f1ca5d3c.html</url>
