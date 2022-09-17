@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>http://myfake.xyz/posts/9fefd7bd.html</loc>
-    
-    <lastmod>2022-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://myfake.xyz/posts/2bb2271c.html</loc>
     
     <lastmod>2022-09-17</lastmod>
@@ -129,6 +120,15 @@
   
   <url>
     <loc>http://myfake.xyz/posts/6d7bc0fa.html</loc>
+    
+    <lastmod>2022-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/9fefd7bd.html</loc>
     
     <lastmod>2022-09-17</lastmod>
     

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://myfake.xyz/posts/9fefd7bd.html</loc>
-    <lastmod>2022-09-17</lastmod>
-  </url>
-  <url>
     <loc>http://myfake.xyz/posts/2bb2271c.html</loc>
     <lastmod>2022-09-17</lastmod>
   </url>
@@ -54,6 +50,10 @@
   </url>
   <url>
     <loc>http://myfake.xyz/posts/6d7bc0fa.html</loc>
+    <lastmod>2022-09-17</lastmod>
+  </url>
+  <url>
+    <loc>http://myfake.xyz/posts/9fefd7bd.html</loc>
     <lastmod>2022-09-17</lastmod>
   </url>
   <url>
