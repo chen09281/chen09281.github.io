@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>员工管理系统：删除及404处理</title>
+      <link href="/posts/c3c3e1a.html"/>
+      <url>/posts/c3c3e1a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="删除功能"><a href="#删除功能" class="headerlink" title="删除功能"></a>删除功能</h2><p>删除其实是最简单的功能了，我们把删除按钮先改为a标签然后链接修改为delEmp+emp.id</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;btn btn-sm btn-danger&quot;</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;/delEmp/&#125;+$&#123;emp.getId()&#125;&quot;</span>&gt;</span>删除<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><p>这时候再创建一个controller就搞定了，这个conroller也非常简单，只需要两行代码就完成了。</p><p>deleteEmp:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 删除员工</span></span><br><span class="line"><span class="meta">@GetMapping(&quot;/delEmp/&#123;id&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> String <span class="title function_">deleteEmp</span><span class="params">(<span class="meta">@PathVariable(&quot;id&quot;)</span>Integer id)</span>&#123;</span><br><span class="line">    employeeDao.delete(id);</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;redirect:/emps&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这时候如果不出问题就可以删除了</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20220920162526.png" alt="删除"></p><h2 id="404页面以及注销功能"><a href="#404页面以及注销功能" class="headerlink" title="404页面以及注销功能"></a>404页面以及注销功能</h2><p>springboot要使用404页面也非常简单，只需要在templates下创建一个404的文件夹然后把404页面放进去就可以了，然后我们打开一个不存在的页面，他就能显示出404页面了。</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20220920162736.png" alt="404页面"></p><p>注销功能的话，先在<code>commons.html</code>中把注销的链接更改，我这里修改为了<code>th:href=&quot;@&#123;/user/loginout&#125;&quot;</code>然后去controller创建一个，也是两行代码的问题</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping(&quot;/user/loginout&quot;)</span></span><br><span class="line"><span class="keyword">public</span> String <span class="title function_">logout</span><span class="params">(HttpSession session)</span>&#123;</span><br><span class="line">    session.invalidate();</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;redirect:/index.html&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这样我们就可以登出了。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>员工管理系统:修改员工信息</title>
       <link href="/posts/2ec200a5.html"/>
       <url>/posts/2ec200a5.html</url>
