@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Swagger配置扫描接口及其开关</title>
+      <link href="/posts/1bee9dac.html"/>
+      <url>/posts/1bee9dac.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="查看源码"><a href="#查看源码" class="headerlink" title="查看源码"></a>查看源码</h2><p>在<code>Docket</code>的源码中有一个select方法</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> ApiSelectorBuilder <span class="title function_">select</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">ApiSelectorBuilder</span>(<span class="built_in">this</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这个方法可以打开扫描接口的方法，需要一个buid()</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Docket</span>(DocumentationType.SWAGGER_2)</span><br><span class="line">        .select()</span><br><span class="line">        <span class="comment">// RequestHandlerSelectors.配置要扫描接口的方式</span></span><br><span class="line">        <span class="comment">// any():扫描全部</span></span><br><span class="line">        <span class="comment">// none():都不扫描</span></span><br><span class="line">        <span class="comment">// withClassAnnotation:扫描类上的注解，是一个注解的反射对象</span></span><br><span class="line">        <span class="comment">// withMethodAnnotation:扫描方法上的注解</span></span><br><span class="line">        .apis(RequestHandlerSelectors.basePackage(<span class="string">&quot;com.chen.swagger.controller&quot;</span>))</span><br><span class="line">        <span class="comment">// paths 过滤什么路径</span></span><br><span class="line">        <span class="comment">// .paths(PathSelectors.ant(&quot;/chen/**&quot;))</span></span><br><span class="line">        .build();</span><br></pre></td></tr></table></figure><p>select里只有和buid中间只有<code>apis</code>和<code>paths</code>两个方法</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>swagger介绍以及集成</title>
       <link href="/posts/9a9945f7.html"/>
       <url>/posts/9a9945f7.html</url>
