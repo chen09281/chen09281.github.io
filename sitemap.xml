@@ -4,7 +4,7 @@
   <url>
     <loc>http://myfake.xyz/manifest.json</loc>
     
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>http://myfake.xyz/posts/9fefd7bd.html</loc>
     
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>http://myfake.xyz/posts/2bb2271c.html</loc>
     
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,313 +31,7 @@
   <url>
     <loc>http://myfake.xyz/posts/e3de066.html</loc>
     
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/9a9945f7.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/c96c8ccf.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/32e393fa.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/e8729409.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/6e8da807.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/22044772.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/2ec200a5.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/8f679802.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/8b7bb590.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/c3c3e1a.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/269dc8c1.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/7ca57b3.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/f1ca5d3c.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/68b78662.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/f470d5d5.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/a9d62b65.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/d9407122.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/7155036.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/1f468d06.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/6d7bc0fa.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/a5fe0d25.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/8ea2cdb0.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/58ca67ee.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/a9b60a57.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/ab075814.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/5c930d9b.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/33870c48.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/1bee9dac.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/f2d38d13.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/de7fafd.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/29e4f296.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/f8a1fd3d.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/7d887bf2.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://myfake.xyz/posts/d4aa8d83.html</loc>
-    
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -346,7 +40,313 @@
   <url>
     <loc>http://myfake.xyz/posts/fa505287.html</loc>
     
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/9a9945f7.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/c96c8ccf.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/32e393fa.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/e8729409.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/6e8da807.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/22044772.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/2ec200a5.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/8f679802.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/8b7bb590.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/c3c3e1a.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/269dc8c1.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/7ca57b3.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/f1ca5d3c.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/68b78662.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/f470d5d5.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/a9d62b65.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/d9407122.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/7155036.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/1f468d06.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/6d7bc0fa.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/a5fe0d25.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/8ea2cdb0.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/58ca67ee.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/a9b60a57.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/ab075814.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/5c930d9b.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/33870c48.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/1bee9dac.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/f2d38d13.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/de7fafd.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/29e4f296.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/f8a1fd3d.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/7d887bf2.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://myfake.xyz/posts/d4aa8d83.html</loc>
+    
+    <lastmod>2022-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -355,7 +355,7 @@
 
   <url>
     <loc>http://myfake.xyz/</loc>
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -363,28 +363,28 @@
   
   <url>
     <loc>http://myfake.xyz/tags/Java/</loc>
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://myfake.xyz/tags/JavaSE/</loc>
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://myfake.xyz/tags/mysql/</loc>
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://myfake.xyz/tags/test/</loc>
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2022-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
