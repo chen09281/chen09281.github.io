@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>vs设置</title>
+      <link href="/posts/d6989446.html"/>
+      <url>/posts/d6989446.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="vs中的设置"><a href="#vs中的设置" class="headerlink" title="vs中的设置"></a>vs中的设置</h1><h2 id="新建一个项目的结构"><a href="#新建一个项目的结构" class="headerlink" title="新建一个项目的结构"></a>新建一个项目的结构</h2><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403194523.png"></p><p>新建好的项目在vs中是这样显示的，但是在电脑上是这样的<img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403194647.png"></p><p>可以看到并没有分类，在文件夹中。在vs中的其实叫做过滤器，通过<code>NewProject.vcxproj.filters</code>这个文件，包含了我们创建的虚拟文件夹。这些过滤器过滤了你的源代码，但这些目录在磁盘上根本不存在。</p><p>如果创建一个文件，它实际上创建在项目文件的旁边。</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403195041.png"></p><p>这样可能有点混乱，想要vs自动创建对应的文件夹则需要一些设置。</p><p>在vs的文件管理中，有一个按钮叫<strong>Show All Files</strong></p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403195520.png"></p><p>点击后就可以看到文件夹的真是状态了，新建一个<strong>src</strong>文件夹，把<code>Main.cpp</code>放进去,返回过滤器中，可以看到Main.cpp还是在<strong>Source Files</strong>文件夹中。</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403195646.png"></p><p>当我们bulid项目的时候会发现，文件夹内出现了两个debug文件夹，exe也在其中一个<strong>debug</strong>文件夹内，要修改可以右键项目选择配置。</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403203312.png"></p><p>在这里可以修改想要存放的位置。</p><p><code>$(SolutionDir)bin\$(Platform)\$(Configuration)\</code></p><p><code>$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\</code></p><p>当我们再次build就可以看到在对应的位置了。</p><p><img src="https://hexo-1303188987.cos.ap-guangzhou.myqcloud.com/test/20230403203404.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> c++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>c++条件与分支</title>
       <link href="/posts/f156aac3.html"/>
       <url>/posts/f156aac3.html</url>
