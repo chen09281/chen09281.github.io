@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>c++的循环</title>
+      <link href="/posts/2e3b0a65.html"/>
+      <url>/posts/2e3b0a65.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="C-循环"><a href="#C-循环" class="headerlink" title="C++ 循环"></a>C++ 循环</h1><h2 id="For循环"><a href="#For循环" class="headerlink" title="For循环"></a>For循环</h2><p>其实也和其他语言一样，例如想输出5次“Hello World”可以复制5次例如:</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br></pre></td></tr></table></figure><p>当然也可以用for循环</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="While循环"><a href="#While循环" class="headerlink" title="While循环"></a>While循环</h2><p>也一样</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> (i&lt;<span class="number">5</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">Log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">i++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="do-while循环"><a href="#do-while循环" class="headerlink" title="do while循环"></a>do while循环</h2><p>也是一样的，区别在于<strong>do while</strong>是先运行再判断，会保底运行一次。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">bool</span> condition = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="keyword">while</span> (condition);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> c++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vs设置</title>
       <link href="/posts/d6989446.html"/>
       <url>/posts/d6989446.html</url>
